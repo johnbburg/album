@@ -1,0 +1,6 @@
+name = OpenPolicy Theme
+description = Openpolicy theme manipulation
+core = 7.x
+package = OpenPolicy
+version = 7.x-1.0-alpha1
+project = openpolicy_theme

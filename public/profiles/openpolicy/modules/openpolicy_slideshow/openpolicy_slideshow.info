@@ -1,0 +1,14 @@
+name = OpenPolicy Slideshow
+description = Configurable slideshow panel pane.
+core = 7.x
+package = OpenPolicy
+php = 5.2.4
+version = 7.x-1.0-alpha1
+project = openpolicy_slideshow
+dependencies[] = fieldable_panels_panes
+dependencies[] = file_entity
+dependencies[] = image
+dependencies[] = link
+dependencies[] = media
+dependencies[] = node
+files[] = openpolicy_slideshow.module

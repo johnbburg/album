@@ -1,0 +1,111 @@
+; Packaging information for openpolicy
+name = "OpenPolicy"
+description = ""
+core = "7.x"
+; ----------
+; Dependencies
+; ----------
+; Administration
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+; Chaos tool suite
+dependencies[] = ctools
+dependencies[] = page_manager
+dependencies[] = views_content
+; Configuration
+dependencies[] = configuration
+; Core
+dependencies[] = block
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = overlay
+dependencies[] = path
+dependencies[] = search
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = update
+dependencies[] = user
+; Date/Time
+dependencies[] = date
+dependencies[] = date_api
+dependencies[] = date_popup
+dependencies[] = date_repeat
+dependencies[] = date_repeat_field
+dependencies[] = date_views
+; Display Suite
+dependencies[] = ds
+dependencies[] = ds_ui
+; Fields
+dependencies[] = entityreference
+dependencies[] = field_collection
+dependencies[] = field_delimiter
+dependencies[] = field_formatter_settings
+dependencies[] = field_slideshow
+dependencies[] = link
+; FullCalendar
+dependencies[] = fullcalendar
+dependencies[] = fullcalendar_options
+; Media
+dependencies[] = file_entity
+dependencies[] = media
+dependencies[] = media_internet
+dependencies[] = media_vimeo
+dependencies[] = media_youtube
+dependencies[] = mediafield
+; OpenPolicy
+dependencies[] = openpolicy_slideshow
+dependencies[] = openpolicy_theme
+; Other
+dependencies[] = entity
+dependencies[] = field_collection_views
+dependencies[] = libraries
+dependencies[] = menu_block
+dependencies[] = module_filter
+dependencies[] = pathauto
+dependencies[] = token
+dependencies[] = xautoload
+; Panels
+dependencies[] = fieldable_panels_panes
+dependencies[] = panelizer
+dependencies[] = panels
+dependencies[] = panels_ipe
+dependencies[] = panels_node
+; Search
+dependencies[] = search_api
+dependencies[] = search_api_facetapi
+;dependencies[] = search_api_solr
+dependencies[] = search_api_views
+; Search Toolkit
+dependencies[] = facetapi
+; User interface
+dependencies[] = wysiwyg
+; Views
+dependencies[] = views
+dependencies[] = views_bulk_operations
+dependencies[] = views_slideshow
+dependencies[] = views_slideshow_cycle
+dependencies[] = views_ui
+; Workbench
+dependencies[] = workbench
+dependencies[] = workbench_moderation
+
+; ----------
+; Variables
+; ----------
+variables[admin_theme] = 'seven'
+variables[theme_default] = 'f1ux'
+variables[site_frontpage] = 'home'

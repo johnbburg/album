@@ -1,0 +1,16 @@
+{
+  "generator-web-starter": {
+    "install_type": "basic",
+    "name": "album",
+    "version": "0.1.0",
+    "refspec": "1.1.x",
+    "platform": "drupal",
+    "repository": "git@github.com:johnbburg/album.git",
+    "drupal_use_compass": true,
+    "drupal_theme": "album",
+    "puppet": false,
+    "use_capistrano": true,
+    "deploy_via": "rsync",
+    "keep_releases": 3
+  }
+}

@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Implements hook_install().
+ */
+function openpolicy_slideshow_install() {
+
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function openpolicy_slideshow_uninstall() {
+
+}
