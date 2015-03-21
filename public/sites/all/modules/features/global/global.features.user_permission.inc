@@ -14,8 +14,8 @@ function global_user_default_permissions() {
   $permissions['access administration menu'] = array(
     'name' => 'access administration menu',
     'roles' => array(
+      'Contributor' => 'Contributor',
       'Developer' => 'Developer',
-      'authenticated user' => 'authenticated user',
     ),
     'module' => 'admin_menu',
   );
@@ -24,8 +24,8 @@ function global_user_default_permissions() {
   $permissions['access administration pages'] = array(
     'name' => 'access administration pages',
     'roles' => array(
+      'Contributor' => 'Contributor',
       'Developer' => 'Developer',
-      'authenticated user' => 'authenticated user',
     ),
     'module' => 'system',
   );
@@ -43,7 +43,6 @@ function global_user_default_permissions() {
   $permissions['access content'] = array(
     'name' => 'access content',
     'roles' => array(
-      'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
     ),
     'module' => 'node',
@@ -60,7 +59,8 @@ function global_user_default_permissions() {
   $permissions['access media browser'] = array(
     'name' => 'access media browser',
     'roles' => array(
-      'authenticated user' => 'authenticated user',
+      'Contributor' => 'Contributor',
+      'Developer' => 'Developer',
     ),
     'module' => 'media',
   );
@@ -87,8 +87,8 @@ function global_user_default_permissions() {
   $permissions['access user profiles'] = array(
     'name' => 'access user profiles',
     'roles' => array(
+      'Contributor' => 'Contributor',
       'Developer' => 'Developer',
-      'authenticated user' => 'authenticated user',
     ),
     'module' => 'user',
   );
@@ -284,6 +284,7 @@ function global_user_default_permissions() {
   $permissions['change own username'] = array(
     'name' => 'change own username',
     'roles' => array(
+      'Contributor' => 'Contributor',
       'Developer' => 'Developer',
     ),
     'module' => 'user',
@@ -338,7 +339,8 @@ function global_user_default_permissions() {
   $permissions['delete own audio files'] = array(
     'name' => 'delete own audio files',
     'roles' => array(
-      'authenticated user' => 'authenticated user',
+      'Contributor' => 'Contributor',
+      'Developer' => 'Developer',
     ),
     'module' => 'file_entity',
   );
@@ -347,7 +349,8 @@ function global_user_default_permissions() {
   $permissions['delete own document files'] = array(
     'name' => 'delete own document files',
     'roles' => array(
-      'authenticated user' => 'authenticated user',
+      'Contributor' => 'Contributor',
+      'Developer' => 'Developer',
     ),
     'module' => 'file_entity',
   );
@@ -356,8 +359,8 @@ function global_user_default_permissions() {
   $permissions['delete own image files'] = array(
     'name' => 'delete own image files',
     'roles' => array(
+      'Contributor' => 'Contributor',
       'Developer' => 'Developer',
-      'authenticated user' => 'authenticated user',
     ),
     'module' => 'file_entity',
   );
@@ -366,7 +369,8 @@ function global_user_default_permissions() {
   $permissions['delete own video files'] = array(
     'name' => 'delete own video files',
     'roles' => array(
-      'authenticated user' => 'authenticated user',
+      'Contributor' => 'Contributor',
+      'Developer' => 'Developer',
     ),
     'module' => 'file_entity',
   );
@@ -393,7 +397,8 @@ function global_user_default_permissions() {
   $permissions['download any audio files'] = array(
     'name' => 'download any audio files',
     'roles' => array(
-      'authenticated user' => 'authenticated user',
+      'Contributor' => 'Contributor',
+      'Developer' => 'Developer',
     ),
     'module' => 'file_entity',
   );
@@ -402,7 +407,8 @@ function global_user_default_permissions() {
   $permissions['download any document files'] = array(
     'name' => 'download any document files',
     'roles' => array(
-      'authenticated user' => 'authenticated user',
+      'Contributor' => 'Contributor',
+      'Developer' => 'Developer',
     ),
     'module' => 'file_entity',
   );
@@ -411,7 +417,8 @@ function global_user_default_permissions() {
   $permissions['download any image files'] = array(
     'name' => 'download any image files',
     'roles' => array(
-      'authenticated user' => 'authenticated user',
+      'Contributor' => 'Contributor',
+      'Developer' => 'Developer',
     ),
     'module' => 'file_entity',
   );
@@ -420,7 +427,8 @@ function global_user_default_permissions() {
   $permissions['download any video files'] = array(
     'name' => 'download any video files',
     'roles' => array(
-      'authenticated user' => 'authenticated user',
+      'Contributor' => 'Contributor',
+      'Developer' => 'Developer',
     ),
     'module' => 'file_entity',
   );
@@ -429,7 +437,8 @@ function global_user_default_permissions() {
   $permissions['download own audio files'] = array(
     'name' => 'download own audio files',
     'roles' => array(
-      'authenticated user' => 'authenticated user',
+      'Contributor' => 'Contributor',
+      'Developer' => 'Developer',
     ),
     'module' => 'file_entity',
   );
@@ -438,7 +447,8 @@ function global_user_default_permissions() {
   $permissions['download own document files'] = array(
     'name' => 'download own document files',
     'roles' => array(
-      'authenticated user' => 'authenticated user',
+      'Contributor' => 'Contributor',
+      'Developer' => 'Developer',
     ),
     'module' => 'file_entity',
   );
@@ -447,7 +457,8 @@ function global_user_default_permissions() {
   $permissions['download own image files'] = array(
     'name' => 'download own image files',
     'roles' => array(
-      'authenticated user' => 'authenticated user',
+      'Contributor' => 'Contributor',
+      'Developer' => 'Developer',
     ),
     'module' => 'file_entity',
   );
@@ -456,7 +467,8 @@ function global_user_default_permissions() {
   $permissions['download own video files'] = array(
     'name' => 'download own video files',
     'roles' => array(
-      'authenticated user' => 'authenticated user',
+      'Contributor' => 'Contributor',
+      'Developer' => 'Developer',
     ),
     'module' => 'file_entity',
   );
@@ -483,7 +495,8 @@ function global_user_default_permissions() {
   $permissions['edit any image files'] = array(
     'name' => 'edit any image files',
     'roles' => array(
-      'authenticated user' => 'authenticated user',
+      'Contributor' => 'Contributor',
+      'Developer' => 'Developer',
     ),
     'module' => 'file_entity',
   );
@@ -501,7 +514,8 @@ function global_user_default_permissions() {
   $permissions['edit own audio files'] = array(
     'name' => 'edit own audio files',
     'roles' => array(
-      'authenticated user' => 'authenticated user',
+      'Contributor' => 'Contributor',
+      'Developer' => 'Developer',
     ),
     'module' => 'file_entity',
   );
@@ -510,7 +524,8 @@ function global_user_default_permissions() {
   $permissions['edit own document files'] = array(
     'name' => 'edit own document files',
     'roles' => array(
-      'authenticated user' => 'authenticated user',
+      'Contributor' => 'Contributor',
+      'Developer' => 'Developer',
     ),
     'module' => 'file_entity',
   );
@@ -521,7 +536,6 @@ function global_user_default_permissions() {
     'roles' => array(
       'Contributor' => 'Contributor',
       'Developer' => 'Developer',
-      'authenticated user' => 'authenticated user',
     ),
     'module' => 'file_entity',
   );
@@ -530,7 +544,8 @@ function global_user_default_permissions() {
   $permissions['edit own video files'] = array(
     'name' => 'edit own video files',
     'roles' => array(
-      'authenticated user' => 'authenticated user',
+      'Contributor' => 'Contributor',
+      'Developer' => 'Developer',
     ),
     'module' => 'file_entity',
   );
@@ -596,7 +611,8 @@ function global_user_default_permissions() {
   $permissions['view files'] = array(
     'name' => 'view files',
     'roles' => array(
-      'anonymous user' => 'anonymous user',
+      'Contributor' => 'Contributor',
+      'Developer' => 'Developer',
       'authenticated user' => 'authenticated user',
     ),
     'module' => 'file_entity',
@@ -624,7 +640,8 @@ function global_user_default_permissions() {
   $permissions['view own unpublished content'] = array(
     'name' => 'view own unpublished content',
     'roles' => array(
-      'authenticated user' => 'authenticated user',
+      'Contributor' => 'Contributor',
+      'Developer' => 'Developer',
     ),
     'module' => 'node',
   );
@@ -642,7 +659,8 @@ function global_user_default_permissions() {
   $permissions['view revisions'] = array(
     'name' => 'view revisions',
     'roles' => array(
-      'authenticated user' => 'authenticated user',
+      'Contributor' => 'Contributor',
+      'Developer' => 'Developer',
     ),
     'module' => 'node',
   );
@@ -651,8 +669,8 @@ function global_user_default_permissions() {
   $permissions['view the administration theme'] = array(
     'name' => 'view the administration theme',
     'roles' => array(
+      'Contributor' => 'Contributor',
       'Developer' => 'Developer',
-      'authenticated user' => 'authenticated user',
     ),
     'module' => 'system',
   );
